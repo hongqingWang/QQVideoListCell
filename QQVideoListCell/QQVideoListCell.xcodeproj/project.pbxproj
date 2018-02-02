@@ -13,6 +13,7 @@
 		04A7A71E20246CEF0080CE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A7A71D20246CEF0080CE1B /* Assets.xcassets */; };
 		04A7A72120246CEF0080CE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7A71F20246CEF0080CE1B /* LaunchScreen.storyboard */; };
 		04A7A72420246CEF0080CE1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A72320246CEF0080CE1B /* main.m */; };
+		0B50E71FCE616B135656A5FE /* libPods-QQVideoListCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEAEA51ED1D597F1B2820FA /* libPods-QQVideoListCell.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		04A7A72020246CEF0080CE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A7A72220246CEF0080CE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A7A72320246CEF0080CE1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B10BE47DC5933AB46ED2230 /* Pods-QQVideoListCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQVideoListCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQVideoListCell/Pods-QQVideoListCell.debug.xcconfig"; sourceTree = "<group>"; };
+		EA1632B40E2B3D80DA1C00E3 /* Pods-QQVideoListCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQVideoListCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQVideoListCell/Pods-QQVideoListCell.release.xcconfig"; sourceTree = "<group>"; };
+		FDEAEA51ED1D597F1B2820FA /* libPods-QQVideoListCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQVideoListCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B50E71FCE616B135656A5FE /* libPods-QQVideoListCell.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				04A7A71320246CEF0080CE1B /* QQVideoListCell */,
 				04A7A71220246CEF0080CE1B /* Products */,
+				A12AB87A1A50B4D85B2515F4 /* Pods */,
+				5D7944E27890E5D5AF5B0622 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +78,23 @@
 			path = QQVideoListCell;
 			sourceTree = "<group>";
 		};
+		5D7944E27890E5D5AF5B0622 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDEAEA51ED1D597F1B2820FA /* libPods-QQVideoListCell.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A12AB87A1A50B4D85B2515F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B10BE47DC5933AB46ED2230 /* Pods-QQVideoListCell.debug.xcconfig */,
+				EA1632B40E2B3D80DA1C00E3 /* Pods-QQVideoListCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A7A72720246CEF0080CE1B /* Build configuration list for PBXNativeTarget "QQVideoListCell" */;
 			buildPhases = (
+				D3679CE0EC6A819DE6CF5425 /* [CP] Check Pods Manifest.lock */,
 				04A7A70D20246CEF0080CE1B /* Sources */,
 				04A7A70E20246CEF0080CE1B /* Frameworks */,
 				04A7A70F20246CEF0080CE1B /* Resources */,
+				C9ECCFC499DE77FBAC86E2D3 /* [CP] Embed Pods Frameworks */,
+				BF1561C8D764D16E73FD3DB9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +164,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF1561C8D764D16E73FD3DB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQVideoListCell/Pods-QQVideoListCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9ECCFC499DE77FBAC86E2D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQVideoListCell/Pods-QQVideoListCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3679CE0EC6A819DE6CF5425 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QQVideoListCell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04A7A70D20246CEF0080CE1B /* Sources */ = {
@@ -277,6 +355,7 @@
 		};
 		04A7A72820246CEF0080CE1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B10BE47DC5933AB46ED2230 /* Pods-QQVideoListCell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,6 +371,7 @@
 		};
 		04A7A72920246CEF0080CE1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA1632B40E2B3D80DA1C00E3 /* Pods-QQVideoListCell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
