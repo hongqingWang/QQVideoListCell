@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "QQNewsViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    QQNewsViewController *newsVc = [[QQNewsViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:newsVc];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

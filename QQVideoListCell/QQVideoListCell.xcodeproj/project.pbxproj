@@ -13,6 +13,29 @@
 		04A7A71E20246CEF0080CE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A7A71D20246CEF0080CE1B /* Assets.xcassets */; };
 		04A7A72120246CEF0080CE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7A71F20246CEF0080CE1B /* LaunchScreen.storyboard */; };
 		04A7A72420246CEF0080CE1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A72320246CEF0080CE1B /* main.m */; };
+		04A7A73020246E010080CE1B /* QQNetworkManager+QQNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A72E20246E010080CE1B /* QQNetworkManager+QQNews.m */; };
+		04A7A73120246E010080CE1B /* QQNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A72F20246E010080CE1B /* QQNetworkManager.m */; };
+		04A7A76320246E100080CE1B /* QQNewsListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A73520246E0F0080CE1B /* QQNewsListViewModel.m */; };
+		04A7A76420246E100080CE1B /* QQNewsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A73620246E0F0080CE1B /* QQNewsViewModel.m */; };
+		04A7A76520246E100080CE1B /* QQNews.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A7A73820246E0F0080CE1B /* QQNews.xcassets */; };
+		04A7A76620246E100080CE1B /* ZFPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A73A20246E0F0080CE1B /* ZFPlayerModel.m */; };
+		04A7A76720246E100080CE1B /* UITabBarController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A74020246E0F0080CE1B /* UITabBarController+ZFPlayerRotation.m */; };
+		04A7A76820246E100080CE1B /* UIWindow+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A74720246E0F0080CE1B /* UIWindow+CurrentViewController.m */; };
+		04A7A76920246E100080CE1B /* UIView+CustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A74820246E0F0080CE1B /* UIView+CustomControlView.m */; };
+		04A7A76A20246E100080CE1B /* UINavigationController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A74920246E0F0080CE1B /* UINavigationController+ZFPlayerRotation.m */; };
+		04A7A76B20246E100080CE1B /* UIAlertController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A74A20246E0F0080CE1B /* UIAlertController+ZFPlayerRotation.m */; };
+		04A7A76C20246E100080CE1B /* UIImageView+ZFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A74B20246E0F0080CE1B /* UIImageView+ZFCache.m */; };
+		04A7A76D20246E100080CE1B /* UIViewController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A74C20246E0F0080CE1B /* UIViewController+ZFPlayerRotation.m */; };
+		04A7A76E20246E100080CE1B /* ZFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A75120246E0F0080CE1B /* ZFBrightnessView.m */; };
+		04A7A76F20246E100080CE1B /* ZFPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04A7A75220246E0F0080CE1B /* ZFPlayer.bundle */; };
+		04A7A77020246E100080CE1B /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A75420246E0F0080CE1B /* ASValuePopUpView.m */; };
+		04A7A77120246E100080CE1B /* ZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A75520246E0F0080CE1B /* ZFPlayerControlView.m */; };
+		04A7A77220246E100080CE1B /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A75620246E0F0080CE1B /* ZFPlayerView.m */; };
+		04A7A77320246E100080CE1B /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A75720246E0F0080CE1B /* MMMaterialDesignSpinner.m */; };
+		04A7A77420246E100080CE1B /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A75920246E0F0080CE1B /* ASValueTrackingSlider.m */; };
+		04A7A77520246E100080CE1B /* QQNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A75C20246E0F0080CE1B /* QQNewsViewController.m */; };
+		04A7A77620246E100080CE1B /* QQNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A75F20246E0F0080CE1B /* QQNews.m */; };
+		04A7A77720246E100080CE1B /* QQNewsVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A76120246E0F0080CE1B /* QQNewsVideoCell.m */; };
 		0B50E71FCE616B135656A5FE /* libPods-QQVideoListCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEAEA51ED1D597F1B2820FA /* libPods-QQVideoListCell.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +50,52 @@
 		04A7A72020246CEF0080CE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A7A72220246CEF0080CE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A7A72320246CEF0080CE1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A7A72C20246E010080CE1B /* QQNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQNetworkManager.h; sourceTree = "<group>"; };
+		04A7A72D20246E010080CE1B /* QQNetworkManager+QQNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QQNetworkManager+QQNews.h"; sourceTree = "<group>"; };
+		04A7A72E20246E010080CE1B /* QQNetworkManager+QQNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QQNetworkManager+QQNews.m"; sourceTree = "<group>"; };
+		04A7A72F20246E010080CE1B /* QQNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQNetworkManager.m; sourceTree = "<group>"; };
+		04A7A73420246E0F0080CE1B /* QQNewsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQNewsViewModel.h; sourceTree = "<group>"; };
+		04A7A73520246E0F0080CE1B /* QQNewsListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQNewsListViewModel.m; sourceTree = "<group>"; };
+		04A7A73620246E0F0080CE1B /* QQNewsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQNewsViewModel.m; sourceTree = "<group>"; };
+		04A7A73720246E0F0080CE1B /* QQNewsListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQNewsListViewModel.h; sourceTree = "<group>"; };
+		04A7A73820246E0F0080CE1B /* QQNews.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = QQNews.xcassets; sourceTree = "<group>"; };
+		04A7A73A20246E0F0080CE1B /* ZFPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerModel.m; sourceTree = "<group>"; };
+		04A7A73B20246E0F0080CE1B /* ZFPlayerControlViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlViewDelegate.h; sourceTree = "<group>"; };
+		04A7A73C20246E0F0080CE1B /* ZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlView.h; sourceTree = "<group>"; };
+		04A7A73D20246E0F0080CE1B /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		04A7A73F20246E0F0080CE1B /* UIWindow+CurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CurrentViewController.h"; sourceTree = "<group>"; };
+		04A7A74020246E0F0080CE1B /* UITabBarController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		04A7A74120246E0F0080CE1B /* UINavigationController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		04A7A74220246E0F0080CE1B /* UIView+CustomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomControlView.h"; sourceTree = "<group>"; };
+		04A7A74320246E0F0080CE1B /* UIViewController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		04A7A74420246E0F0080CE1B /* UIImageView+ZFCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZFCache.h"; sourceTree = "<group>"; };
+		04A7A74520246E0F0080CE1B /* UIAlertController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		04A7A74620246E0F0080CE1B /* UITabBarController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		04A7A74720246E0F0080CE1B /* UIWindow+CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CurrentViewController.m"; sourceTree = "<group>"; };
+		04A7A74820246E0F0080CE1B /* UIView+CustomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomControlView.m"; sourceTree = "<group>"; };
+		04A7A74920246E0F0080CE1B /* UINavigationController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		04A7A74A20246E0F0080CE1B /* UIAlertController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		04A7A74B20246E0F0080CE1B /* UIImageView+ZFCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZFCache.m"; sourceTree = "<group>"; };
+		04A7A74C20246E0F0080CE1B /* UIViewController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		04A7A74D20246E0F0080CE1B /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		04A7A74E20246E0F0080CE1B /* ZFPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerView.h; sourceTree = "<group>"; };
+		04A7A74F20246E0F0080CE1B /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		04A7A75020246E0F0080CE1B /* ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayer.h; sourceTree = "<group>"; };
+		04A7A75120246E0F0080CE1B /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
+		04A7A75220246E0F0080CE1B /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
+		04A7A75320246E0F0080CE1B /* ZFPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerModel.h; sourceTree = "<group>"; };
+		04A7A75420246E0F0080CE1B /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		04A7A75520246E0F0080CE1B /* ZFPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerControlView.m; sourceTree = "<group>"; };
+		04A7A75620246E0F0080CE1B /* ZFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerView.m; sourceTree = "<group>"; };
+		04A7A75720246E0F0080CE1B /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		04A7A75820246E0F0080CE1B /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
+		04A7A75920246E0F0080CE1B /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		04A7A75B20246E0F0080CE1B /* QQNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQNewsViewController.h; sourceTree = "<group>"; };
+		04A7A75C20246E0F0080CE1B /* QQNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQNewsViewController.m; sourceTree = "<group>"; };
+		04A7A75E20246E0F0080CE1B /* QQNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQNews.h; sourceTree = "<group>"; };
+		04A7A75F20246E0F0080CE1B /* QQNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQNews.m; sourceTree = "<group>"; };
+		04A7A76120246E0F0080CE1B /* QQNewsVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQNewsVideoCell.m; sourceTree = "<group>"; };
+		04A7A76220246E0F0080CE1B /* QQNewsVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQNewsVideoCell.h; sourceTree = "<group>"; };
 		4B10BE47DC5933AB46ED2230 /* Pods-QQVideoListCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQVideoListCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQVideoListCell/Pods-QQVideoListCell.debug.xcconfig"; sourceTree = "<group>"; };
 		EA1632B40E2B3D80DA1C00E3 /* Pods-QQVideoListCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQVideoListCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQVideoListCell/Pods-QQVideoListCell.release.xcconfig"; sourceTree = "<group>"; };
 		FDEAEA51ED1D597F1B2820FA /* libPods-QQVideoListCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQVideoListCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +138,8 @@
 				04A7A71520246CEF0080CE1B /* AppDelegate.m */,
 				04A7A71720246CEF0080CE1B /* ViewController.h */,
 				04A7A71820246CEF0080CE1B /* ViewController.m */,
+				04A7A73220246E0F0080CE1B /* News */,
+				04A7A72A20246E010080CE1B /* Tool */,
 				04A7A71A20246CEF0080CE1B /* Main.storyboard */,
 				04A7A71D20246CEF0080CE1B /* Assets.xcassets */,
 				04A7A71F20246CEF0080CE1B /* LaunchScreen.storyboard */,
@@ -76,6 +147,122 @@
 				04A7A72320246CEF0080CE1B /* main.m */,
 			);
 			path = QQVideoListCell;
+			sourceTree = "<group>";
+		};
+		04A7A72A20246E010080CE1B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				04A7A72B20246E010080CE1B /* NetWork */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		04A7A72B20246E010080CE1B /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				04A7A72C20246E010080CE1B /* QQNetworkManager.h */,
+				04A7A72D20246E010080CE1B /* QQNetworkManager+QQNews.h */,
+				04A7A72E20246E010080CE1B /* QQNetworkManager+QQNews.m */,
+				04A7A72F20246E010080CE1B /* QQNetworkManager.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		04A7A73220246E0F0080CE1B /* News */ = {
+			isa = PBXGroup;
+			children = (
+				04A7A73320246E0F0080CE1B /* ViewModel */,
+				04A7A73820246E0F0080CE1B /* QQNews.xcassets */,
+				04A7A73920246E0F0080CE1B /* ZFPlayer */,
+				04A7A75A20246E0F0080CE1B /* Controller */,
+				04A7A75D20246E0F0080CE1B /* Model */,
+				04A7A76020246E0F0080CE1B /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		04A7A73320246E0F0080CE1B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04A7A73420246E0F0080CE1B /* QQNewsViewModel.h */,
+				04A7A73520246E0F0080CE1B /* QQNewsListViewModel.m */,
+				04A7A73620246E0F0080CE1B /* QQNewsViewModel.m */,
+				04A7A73720246E0F0080CE1B /* QQNewsListViewModel.h */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04A7A73920246E0F0080CE1B /* ZFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				04A7A73A20246E0F0080CE1B /* ZFPlayerModel.m */,
+				04A7A73B20246E0F0080CE1B /* ZFPlayerControlViewDelegate.h */,
+				04A7A73C20246E0F0080CE1B /* ZFPlayerControlView.h */,
+				04A7A73D20246E0F0080CE1B /* ASValuePopUpView.h */,
+				04A7A73E20246E0F0080CE1B /* Category */,
+				04A7A74D20246E0F0080CE1B /* MMMaterialDesignSpinner.h */,
+				04A7A74E20246E0F0080CE1B /* ZFPlayerView.h */,
+				04A7A74F20246E0F0080CE1B /* ASValueTrackingSlider.h */,
+				04A7A75020246E0F0080CE1B /* ZFPlayer.h */,
+				04A7A75120246E0F0080CE1B /* ZFBrightnessView.m */,
+				04A7A75220246E0F0080CE1B /* ZFPlayer.bundle */,
+				04A7A75320246E0F0080CE1B /* ZFPlayerModel.h */,
+				04A7A75420246E0F0080CE1B /* ASValuePopUpView.m */,
+				04A7A75520246E0F0080CE1B /* ZFPlayerControlView.m */,
+				04A7A75620246E0F0080CE1B /* ZFPlayerView.m */,
+				04A7A75720246E0F0080CE1B /* MMMaterialDesignSpinner.m */,
+				04A7A75820246E0F0080CE1B /* ZFBrightnessView.h */,
+				04A7A75920246E0F0080CE1B /* ASValueTrackingSlider.m */,
+			);
+			path = ZFPlayer;
+			sourceTree = "<group>";
+		};
+		04A7A73E20246E0F0080CE1B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				04A7A73F20246E0F0080CE1B /* UIWindow+CurrentViewController.h */,
+				04A7A74020246E0F0080CE1B /* UITabBarController+ZFPlayerRotation.m */,
+				04A7A74120246E0F0080CE1B /* UINavigationController+ZFPlayerRotation.h */,
+				04A7A74220246E0F0080CE1B /* UIView+CustomControlView.h */,
+				04A7A74320246E0F0080CE1B /* UIViewController+ZFPlayerRotation.h */,
+				04A7A74420246E0F0080CE1B /* UIImageView+ZFCache.h */,
+				04A7A74520246E0F0080CE1B /* UIAlertController+ZFPlayerRotation.h */,
+				04A7A74620246E0F0080CE1B /* UITabBarController+ZFPlayerRotation.h */,
+				04A7A74720246E0F0080CE1B /* UIWindow+CurrentViewController.m */,
+				04A7A74820246E0F0080CE1B /* UIView+CustomControlView.m */,
+				04A7A74920246E0F0080CE1B /* UINavigationController+ZFPlayerRotation.m */,
+				04A7A74A20246E0F0080CE1B /* UIAlertController+ZFPlayerRotation.m */,
+				04A7A74B20246E0F0080CE1B /* UIImageView+ZFCache.m */,
+				04A7A74C20246E0F0080CE1B /* UIViewController+ZFPlayerRotation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		04A7A75A20246E0F0080CE1B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04A7A75B20246E0F0080CE1B /* QQNewsViewController.h */,
+				04A7A75C20246E0F0080CE1B /* QQNewsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04A7A75D20246E0F0080CE1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04A7A75E20246E0F0080CE1B /* QQNews.h */,
+				04A7A75F20246E0F0080CE1B /* QQNews.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A7A76020246E0F0080CE1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A7A76120246E0F0080CE1B /* QQNewsVideoCell.m */,
+				04A7A76220246E0F0080CE1B /* QQNewsVideoCell.h */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		5D7944E27890E5D5AF5B0622 /* Frameworks */ = {
@@ -159,7 +346,9 @@
 			files = (
 				04A7A72120246CEF0080CE1B /* LaunchScreen.storyboard in Resources */,
 				04A7A71E20246CEF0080CE1B /* Assets.xcassets in Resources */,
+				04A7A76520246E100080CE1B /* QQNews.xcassets in Resources */,
 				04A7A71C20246CEF0080CE1B /* Main.storyboard in Resources */,
+				04A7A76F20246E100080CE1B /* ZFPlayer.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,9 +410,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A7A76620246E100080CE1B /* ZFPlayerModel.m in Sources */,
+				04A7A76E20246E100080CE1B /* ZFBrightnessView.m in Sources */,
 				04A7A71920246CEF0080CE1B /* ViewController.m in Sources */,
+				04A7A73020246E010080CE1B /* QQNetworkManager+QQNews.m in Sources */,
 				04A7A72420246CEF0080CE1B /* main.m in Sources */,
+				04A7A76D20246E100080CE1B /* UIViewController+ZFPlayerRotation.m in Sources */,
+				04A7A76420246E100080CE1B /* QQNewsViewModel.m in Sources */,
+				04A7A76720246E100080CE1B /* UITabBarController+ZFPlayerRotation.m in Sources */,
+				04A7A76320246E100080CE1B /* QQNewsListViewModel.m in Sources */,
+				04A7A76C20246E100080CE1B /* UIImageView+ZFCache.m in Sources */,
+				04A7A77720246E100080CE1B /* QQNewsVideoCell.m in Sources */,
+				04A7A77320246E100080CE1B /* MMMaterialDesignSpinner.m in Sources */,
+				04A7A73120246E010080CE1B /* QQNetworkManager.m in Sources */,
+				04A7A76B20246E100080CE1B /* UIAlertController+ZFPlayerRotation.m in Sources */,
+				04A7A76820246E100080CE1B /* UIWindow+CurrentViewController.m in Sources */,
 				04A7A71620246CEF0080CE1B /* AppDelegate.m in Sources */,
+				04A7A77220246E100080CE1B /* ZFPlayerView.m in Sources */,
+				04A7A76A20246E100080CE1B /* UINavigationController+ZFPlayerRotation.m in Sources */,
+				04A7A77420246E100080CE1B /* ASValueTrackingSlider.m in Sources */,
+				04A7A77020246E100080CE1B /* ASValuePopUpView.m in Sources */,
+				04A7A77520246E100080CE1B /* QQNewsViewController.m in Sources */,
+				04A7A77620246E100080CE1B /* QQNews.m in Sources */,
+				04A7A76920246E100080CE1B /* UIView+CustomControlView.m in Sources */,
+				04A7A77120246E100080CE1B /* ZFPlayerControlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
